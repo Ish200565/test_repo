@@ -39,3 +39,4 @@ def decode_access_token(token: str) -> Optional[dict]:
         return payload
     except JWTError:
         return None
+#this module provides essential security utilities for the application, including password hashing and verification, as well as JWT token creation and decoding. It uses bcrypt for secure password storage and the jose library for handling JWTs.
