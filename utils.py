@@ -34,3 +34,4 @@ def slugify(text: str) -> str:
     text = re.sub(r"[^\w\s-]", "", text)
     text = re.sub(r"[\s-]+", "-", text)
     return text
+#this is a utility file that contains various helper functions and logging setup for the application. It includes functions for logging configuration, email validation, getting the current UTC time, formatting datetime objects, and creating URL-friendly slugs from text.
