@@ -39,3 +39,5 @@ def decode_access_token(token: str) -> Optional[dict]:
         return payload
     except JWTError:
         return None
+#This module provides functions for password hashing and JWT token management, including creating and decoding access tokens.
+#  It uses environment variables for configuration, ensuring that sensitive information like the secret key is not hardcoded.
